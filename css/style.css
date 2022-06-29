@@ -1,49 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 @font-face {
     font-family: mifuente;
     src: url(/fuente/coolvetica.otf);
     font-weight: 400;
 }
-h2,p{
-    font-family: 'Roboto', sans-serif;
-}
-h1, h2{
+
+h1 ,h2{
     color: #0a2ff1;
+}
+h2, p{
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-family: mifuente;
-    font-size: 120px;
+    font-size: 48px;
     font-weight: 400;
-}
-h2{
-    font-size: 30px;
-    font-weight: 900;
-}
-p{
-    font-size: 24px;
-    font-weight: 400;
-    color: #04146c;
 }
 
-main{
-    padding: 1em;
-    display: flex;
-    justify-content: space-evenly;
+h2{
+    font-size: 30px;
+    font-weight: 700;
 }
-div{
+
+p{
+    font-size: 28px;
+    font-weight: 300;
+    color: #04146c;
+    margin-top: 0;
+}
+section{
+    width: 40%;
+    margin: auto;
     background-color: #eff2ff;
     border-radius: 15px;
-    width: 20%;
-    padding: 1em;
     display: flex;
     flex-direction: column;
-    text-align: start;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    padding: 2em;
+
+}
+section img{
+    width: 15%;
+}
+div{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 div img{
-    width: 25%;
+    width: 20%;
+    vertical-align: middle;
+    margin-right: 5px;
 }
-#apple{
-    width: 18%;
+#info{
+    width: 10%;
 }
+.regular{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
